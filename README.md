@@ -4,9 +4,8 @@ Vamos ver alguns dos benefícios da Arquitetura aqui:
 
   Injeção de Dependência : Usa e fornece uma infraestrutura DI convencional. 
   
-  Repository : Cria um repositório padrão para cada entidade (como IRepository<Task> neste exemplo). O repositório padrão tem muitos métodos úteis, 
-  como o método FirstOrDefault. Podemos estender o repositório padrão para atender às nossas necessidades. Os repositórios abstraem os DBMS e ORMs e simplificam 
-  a lógica de acesso aos dados.
+  Repository : Cria um repositório padrão para cada entidade. O repositório padrão tem muitos métodos úteis. Podemos estender o repositório padrão para atender às 
+  nossas necessidades. Os repositórios abstraem os DBMS e ORMs e simplificam a lógica de acesso aos dados.
 
   Autorização : Verifica as permissões declarativamente, mas também tem outras maneiras de autorizar.
 
