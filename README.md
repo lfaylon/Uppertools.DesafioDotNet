@@ -25,7 +25,7 @@ Vamos ver alguns dos benefícios da Arquitetura aqui:
   se for uma solicitação AJAX, ele retornará um objeto JSON ao cliente indicando que ocorreu um erro. Ele oculta a exceção real do cliente, 
   a menos que a exceção seja uma UserFriendlyException. Ele também entende e trata os erros do lado do cliente e mostra as mensagens apropriadas aos usuários.
 
-  Logging : Como você vê, podemos escrever logs usando o objeto Logger definido na classe base. Log4Net é usado por padrão, mas é mutável e configurável.
+  Logging : Podemos escrever logs usando o objeto Logger definido na classe base. Log4Net é usado por padrão, mas é mutável e configurável.
 
   Localização : Usamos o método 'L' ao lançar a exceção, dessa forma, ele é localizado automaticamente com base na cultura do usuário atual.
 
